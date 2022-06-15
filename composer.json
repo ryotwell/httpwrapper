@@ -1,0 +1,26 @@
+{
+    "name": "ryodevz/httpwrapper",
+    "description": "Httpwrapper is a PHP HTTP client library.",
+    "keywords": [
+        "framework",
+        "http",
+        "rest",
+        "web service",
+        "curl",
+        "client",
+        "HTTP client",
+        "Simple Http",
+        "Simple Http Client"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ryodevz\\": "src/"
+        }
+    }
+}
