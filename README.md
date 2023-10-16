@@ -68,7 +68,7 @@ $response = Http::delete('https://example.com', $data)
 use Ryodevz\Httpwrapper\Http;
 
 $headers = [
-    'Content-Type' => 'application/json'
+    'Content-Type' => 'application/json',
     'Accept' => 'application/json'
 ];
 
